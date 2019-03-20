@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Desculpe " + firstName + ", servidor de email não está respondendo. Favor enviar mensagem via Whatsapp! (91) 98084-5638! Agradecemos o seu contato"));
+          $('#success > .alert-danger').append($("<strong>").text("Desculpe " + firstName + ", nosse servidor de email não está respondendo. Favor enviar mensagem via Whatsapp! (91) 98231-3343! Agradecemos o seu contato!"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
